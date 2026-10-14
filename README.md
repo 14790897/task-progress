@@ -4,12 +4,9 @@ Show a task progress ring next to every note in Obsidian's file explorer — one
 
 在 Obsidian 的文件栏里，给每个笔记显示一个待办进度圈：**一个待办占一格，完成一个填一格。**
 
-```
-●●●●●●●●●○○○○   9/13   meeting-notes.md
-●●●●●●●●●●●○  11/12   weekly.md
-●                1/1   buy-milk.md
-○                0/1   call-the-plumber.md
-```
+![Task progress rings in the file explorer](assets/file-explorer.png)
+
+Notes with no tasks show no ring at all. A ring stays grey until every task in that note is done, then turns green.
 
 ## What it counts
 
@@ -24,7 +21,6 @@ Rule 2 exists for vaults that keep one to-do per file (a folder of small notes r
 ## Details
 
 - The ring is drawn clockwise from 12 o'clock, with a hairline gap between segments so a 13-segment ring is still countable.
-- A ring turns green when everything is done.
 - Hover a ring to see `done/total` as a tooltip.
 - Updates live as you edit, and follows the file explorer through folding, renaming and scrolling.
 - Works on desktop and mobile.
