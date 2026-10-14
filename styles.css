@@ -1,0 +1,29 @@
+.task-progress-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 16px;
+  margin-right: 3px;
+  color: var(--text-muted);
+  pointer-events: none;
+  vertical-align: middle;
+}
+
+.task-progress-badge[data-complete="true"] {
+  color: var(--color-green);
+}
+
+.task-progress-svg {
+  display: block;
+}
+
+.nav-file-title.is-active .task-progress-badge,
+.nav-file-title.is-selected .task-progress-badge {
+  color: var(--text-on-accent);
+}
+
+.nav-file-title.is-active .task-progress-badge[data-complete="true"],
+.nav-file-title.is-selected .task-progress-badge[data-complete="true"] {
+  color: var(--text-on-accent);
+}

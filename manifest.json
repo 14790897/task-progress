@@ -1,0 +1,10 @@
+{
+  "id": "task-progress",
+  "name": "Task Progress",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Shows a task progress ring next to each note in the file explorer: one segment per task, filled as you complete them.",
+  "author": "liuweiqing",
+  "authorUrl": "https://github.com/14790897",
+  "isDesktopOnly": false
+}
