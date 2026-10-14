@@ -6,7 +6,7 @@ Show a task progress ring next to every note in Obsidian's file explorer — one
 
 ![Task progress rings in the file explorer](assets/file-explorer.png)
 
-Notes with no tasks show no ring at all. A ring stays grey until every task in that note is done, then turns green.
+Notes with no tasks show no ring. A ring stays grey until every task in that note is done, then turns green.
 
 ## What it counts
 
@@ -27,9 +27,11 @@ Rule 2 exists for vaults that keep one to-do per file (a folder of small notes r
 
 ## Install
 
-Not yet in the community directory. To install manually:
+Search for **Task Progress** in Settings → Community plugins → Browse.
 
-1. Download `main.js`, `manifest.json` and `styles.css` from the [latest release](../../releases/latest).
+Or install it by hand:
+
+1. Download `main.js`, `manifest.json` and `styles.css` from the [latest release](https://github.com/14790897/task-progress/releases/latest).
 2. Put them in `<your vault>/.obsidian/plugins/task-progress/`.
 3. Reload Obsidian, then enable **Task Progress** in Settings → Community plugins.
 
